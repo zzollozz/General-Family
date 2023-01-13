@@ -1,0 +1,1023 @@
+{
+    "total": 7,
+    "filter": [
+        {
+            "id": "actual_price",
+            "name": "\u0426\u0435\u043d\u0430, <span class=\"rub\">\u0431</span>",
+            "min": 23990,
+            "max": 199990,
+            "unit": "<span class=\"rub\">\u0431</span>",
+            "type": "range",
+            "value": [],
+            "collapsed": false
+        },
+        {
+            "id": "brand",
+            "name": "\u0411\u0440\u0435\u043d\u0434",
+            "collapsed": false,
+            "items": [
+                {
+                    "value": "Zhengte",
+                    "valueOriginal": "zhengte",
+                    "checked": false,
+                    "weight": 4
+                },
+                {
+                    "value": "Ganghao",
+                    "valueOriginal": "ganghao",
+                    "checked": false,
+                    "weight": 2
+                },
+                {
+                    "value": "NS RATTAN/MAVI",
+                    "valueOriginal": "ns-rattan-mavi",
+                    "checked": false,
+                    "weight": 1
+                }
+            ],
+            "type": "list"
+        },
+        {
+            "id": "sale",
+            "name": "\u0421\u043a\u0438\u0434\u043a\u0430",
+            "weight": 2,
+            "value": false,
+            "type": "preset"
+        },
+        {
+            "id": "new",
+            "name": "\u041d\u043e\u0432\u0438\u043d\u043a\u0430",
+            "weight": 0,
+            "value": false,
+            "type": "preset"
+        },
+        {
+            "id": "hit",
+            "name": "\u0425\u0438\u0442 \u043f\u0440\u043e\u0434\u0430\u0436",
+            "weight": 1,
+            "value": false,
+            "type": "preset"
+        },
+        {
+            "id": "express",
+            "name": "\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430",
+            "weight": 7,
+            "value": false,
+            "type": "preset"
+        },
+        {
+            "id": "exclusive",
+            "name": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432",
+            "weight": 7,
+            "value": false,
+            "type": "preset"
+        },
+        {
+            "id": "kashirskoe_shosse",
+            "name": "\u041a\u0430\u0448\u0438\u0440\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+            "weight": 3,
+            "value": false,
+            "type": "shop"
+        },
+        {
+            "id": "krokus_siti",
+            "name": "\u041a\u0440\u043e\u043a\u0443\u0441 \u0421\u0438\u0442\u0438",
+            "weight": 6,
+            "value": false,
+            "type": "shop"
+        },
+        {
+            "id": "ostashkovskoe_shosse",
+            "name": "\u041e\u0441\u0442\u0430\u0448\u043a\u043e\u0432\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+            "weight": 7,
+            "value": false,
+            "type": "shop"
+        },
+        {
+            "id": "novorizhskoe_shosse",
+            "name": "\u041d\u043e\u0432\u043e\u0440\u0438\u0436\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+            "weight": 4,
+            "value": false,
+            "type": "shop"
+        },
+        {
+            "id": "mozhayskoe_shosse",
+            "name": "\u041c\u043e\u0436\u0430\u0439\u0441\u043a\u043e\u0435 \u0448\u043e\u0441\u0441\u0435",
+            "weight": 5,
+            "value": false,
+            "type": "shop"
+        },
+        {
+            "id": "tip-tovara",
+            "name": "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430",
+            "collapsed": true,
+            "items": [
+                {
+                    "value": "\u0428\u0430\u0442\u0435\u0440",
+                    "valueOriginal": "shater",
+                    "checked": false,
+                    "weight": 6
+                },
+                {
+                    "value": "\u0411\u0435\u0441\u0435\u0434\u043a\u0430",
+                    "valueOriginal": "besedka",
+                    "checked": false,
+                    "weight": 1
+                }
+            ],
+            "type": "list"
+        },
+        {
+            "id": "osnovnoy-material",
+            "name": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b",
+            "collapsed": true,
+            "items": [
+                {
+                    "value": "\u041c\u0435\u0442\u0430\u043b\u043b",
+                    "valueOriginal": "metall",
+                    "checked": false,
+                    "weight": 2
+                }
+            ],
+            "type": "list"
+        },
+        {
+            "id": "tsvet-karkasa",
+            "name": "\u0426\u0432\u0435\u0442 \u043a\u0430\u0440\u043a\u0430\u0441\u0430",
+            "collapsed": true,
+            "items": [
+                {
+                    "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                    "valueOriginal": "korichnevyy",
+                    "checked": false,
+                    "weight": 2
+                }
+            ],
+            "type": "list"
+        },
+        {
+            "id": "tsvet-kupola",
+            "name": "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430",
+            "collapsed": true,
+            "items": [
+                {
+                    "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                    "valueOriginal": "korichnevyy",
+                    "checked": false,
+                    "weight": 2
+                },
+                {
+                    "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
+                    "valueOriginal": "bezhevyy",
+                    "checked": false,
+                    "weight": 1
+                },
+                {
+                    "value": "\u0411\u0435\u043b\u044b\u0439",
+                    "valueOriginal": "belyy",
+                    "checked": false,
+                    "weight": 1
+                },
+                {
+                    "value": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439",
+                    "valueOriginal": "zelenyy",
+                    "checked": false,
+                    "weight": 1
+                },
+                {
+                    "value": "\u0421\u0432\u0435\u0442\u043b\u043e-\u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                    "valueOriginal": "svetlo-korichnevyy",
+                    "checked": false,
+                    "weight": 1
+                }
+            ],
+            "type": "list"
+        },
+        {
+            "id": "vysota",
+            "name": "\u0412\u044b\u0441\u043e\u0442\u0430",
+            "min": 225,
+            "max": 361,
+            "unit": "\u0441\u043c",
+            "type": "range",
+            "value": [],
+            "collapsed": true
+        },
+        {
+            "id": "shirina",
+            "name": "\u0428\u0438\u0440\u0438\u043d\u0430",
+            "min": 250,
+            "max": 400,
+            "unit": "\u0441\u043c",
+            "type": "range",
+            "value": [],
+            "collapsed": true
+        },
+        {
+            "id": "dlina",
+            "name": "\u0414\u043b\u0438\u043d\u0430",
+            "min": 250,
+            "max": 450,
+            "unit": "\u0441\u043c",
+            "type": "range",
+            "value": [],
+            "collapsed": true
+        },
+        []
+    ],
+    "cards": [
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/9d2b3cb0e1346d3baed9755eec2eec70.jpg",
+                    "webp": "/upload/webp_cache/b5a522c5cc742634fc24bcb46d93b716.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/2b118b23505b380e56e7133dc7e62cea.jpg",
+                    "webp": "/upload/webp_cache/8e6a673a857ebee3b06a05f305cdd5ab.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/387ba049a641faf3ad3b5f32c5e98e06.jpg",
+                    "webp": "/upload/webp_cache/a67a4af62de67f2c971cd02e5677810f.webp"
+                }
+            ],
+            "id": 650907,
+            "name": "\u0428\u0430\u0442\u0435\u0440 \u0441\u0442\u0430\u043b\u044c\u043d\u043e\u0439 Zhengte 2.5\u04452.5\u04453.36\u043c \u0441\u043e \u0441\u0442\u0435\u043d\u0430\u043c\u0438",
+            "code": "1002387042",
+            "price": 86990,
+            "url": "https://tvoydom.ru/catalog/1002387042/",
+            "isHit": false,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 4,
+            "sectionId": 6998,
+            "brandId": 18380,
+            "manufacturerId": 0,
+            "freeDelivery": true,
+            "overallStock": 18,
+            "ecomFilialStock": 7,
+            "photo": {
+                "path": "/photos/1002387042/2450008536724_01.jpg",
+                "webp": "/upload/webp_cache/d8028d33560ffbd76f34e7d3544f7866.webp"
+            },
+            "description": "",
+            "discountPrice": null,
+            "discount": 0,
+            "discountAmount": 0,
+            "popularity": 2250,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 8059,
+            "roundTags": [
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "1002387042",
+                "2450008536724"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "250",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u0421\u0442\u0430\u043b\u044c \u0441 \u043f\u043e\u0440\u043e\u0448\u043a\u043e\u0432\u044b\u043c \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435\u043c",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0443\u043f\u043e\u043b\u0430": "\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b, \u0422\u043a\u0430\u043d\u044c",
+                "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438": "\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b: \u0440\u0430\u043c\u0430 - \u0442\u043a\u0430\u043d\u044c \u043a\u0440\u044b\u0448\u0430: 250\u0433/m2 \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440 \u0441 \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435\u043c \u043f\u0432\u0445, \u0441\u0442\u0435\u043d\u044b - \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440 180\u0433/\u043c2",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "27.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "30.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "37.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "193.0000",
+                "\u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0442\u043a\u0430\u043d\u0438": "250\u0433/m2 \u0438 180\u0433/m2",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u041a\u0438\u0442\u0430\u0439",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "250",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0428\u0430\u0442\u0435\u0440",
+                "\u0412\u044b\u0441\u043e\u0442\u0430": "336"
+            },
+            "brand": "Zhengte",
+            "actualPrice": 86990,
+            "bonusAmount": 869
+        },
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/15e33b756dd824769d43fda3a7f64cc5.jpg",
+                    "webp": "/upload/webp_cache/b2306dbeb5187f346d8953b531690132.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/bf653c4ba68a5fc786977c8589b0b72b.jpg",
+                    "webp": "/upload/webp_cache/a6d23fccd17a231d549cfa819de058f8.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/16fdc44446369e5614fb263baeba5cd2.jpg",
+                    "webp": "/upload/webp_cache/16c9b8d07b46be47b2249f7c927807e0.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/32c5f7103a92bdef1e8d22f4e885f1c7.jpg",
+                    "webp": "/upload/webp_cache/e4c89a70f9de9d47e60683f25c2a0f91.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/21acea9220b23b638ddec95828adbebe.jpg",
+                    "webp": "/upload/webp_cache/91a55a8bd461b40bd145f6273e0c045d.webp"
+                }
+            ],
+            "id": 650908,
+            "name": "\u0428\u0430\u0442\u0435\u0440 \u0430\u043b\u044e\u043c\u0438\u043d\u0438\u0435\u0432\u044b\u0439 Zhengte \u0431\u0435\u0436\u0435\u0432\u044b\u0439 3\u04454 \u043c",
+            "code": "1002387039",
+            "price": 134990,
+            "url": "https://tvoydom.ru/catalog/1002387039/",
+            "isHit": false,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 4,
+            "sectionId": 6998,
+            "brandId": 18380,
+            "manufacturerId": 0,
+            "freeDelivery": true,
+            "overallStock": 16,
+            "ecomFilialStock": 11,
+            "photo": {
+                "path": "/photos/1002387039/2450008536397_01.jpg",
+                "webp": "/upload/webp_cache/be92971be668644ae9e35cc032b5d04d.webp"
+            },
+            "description": "",
+            "discountPrice": null,
+            "discount": 0,
+            "discountAmount": 0,
+            "popularity": 2240,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 12505,
+            "roundTags": [
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "1002387039",
+                "2450008536397"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "300",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u0410\u043b\u044e\u043c\u0438\u043d\u0438\u0439, \u0441\u0442\u0430\u043b\u044c",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0443\u043f\u043e\u043b\u0430": "\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b, \u0422\u043a\u0430\u043d\u044c",
+                "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438": "\u0428\u0430\u0442\u0435\u0440 3\u04454\u043c,\u0441\u0442\u0435\u043d\u044b, \u043e\u043a\u043d\u0430,\u0441\u0435\u0442\u043a\u0438,\u0442\u043a\u0430\u043d\u044c:\u043a\u0440\u044b\u0448\u0430: 250\u0433/m2 \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435 \u043f\u043e\u043b\u0438\u0443\u0440\u0435\u0442\u0430\u043d,\u0432\u043d\u0435\u0448 \u0441\u0442\u0435\u043d\u0430:180\u0433/m2 \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440; \u043c\u043e\u0441\u043a\u0438\u0442 \u0441\u0435\u0442\u043a\u0430-\u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "27.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "30.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "37.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "193.0000",
+                "\u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0442\u043a\u0430\u043d\u0438": "250\u0433/m2 \u0438 180\u0433/m2",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u041a\u0438\u0442\u0430\u0439",
+                "\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u043c\u043e\u0441\u043a\u0438\u0442\u043d\u0430\u044f \u0441\u0435\u0442\u043a\u0430": "\u0434\u0430",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "400",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0428\u0430\u0442\u0435\u0440"
+            },
+            "brand": "Zhengte",
+            "actualPrice": 134990,
+            "bonusAmount": 1349
+        },
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/7d8d026c86ad2c31674943accbb00a09.jpg",
+                    "webp": "/upload/webp_cache/e18635581fd63716dd5b7903b7f77d5f.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/f3863770439af8e5e29b3875644b4639.jpg",
+                    "webp": "/upload/webp_cache/ab764912a605af000ff73295b4723842.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/cf63585e64adfbc45d8b908cfc61a14a.jpg",
+                    "webp": "/upload/webp_cache/276c8eb501c0ad56d803de7e519c93d8.webp"
+                }
+            ],
+            "id": 392208,
+            "name": "\u0428\u0430\u0442\u0435\u0440 Ganghao \u0441 \u043c\u043e\u0441\u043a\u0438\u0442\u043d\u043e\u0439 \u0441\u0435\u0442\u043a\u043e\u0439 250x295 \u0441\u043c (GHGM-018)",
+            "code": "1001391736",
+            "price": 89990,
+            "url": "https://tvoydom.ru/catalog/1001391736/",
+            "isHit": true,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 5,
+            "sectionId": 6998,
+            "brandId": 18406,
+            "manufacturerId": 651,
+            "freeDelivery": true,
+            "overallStock": 50,
+            "ecomFilialStock": 13,
+            "photo": {
+                "path": "/photos/1001391736/1001391736_01.jpg",
+                "webp": "/upload/webp_cache/d66812a534b0056b6b71e5ca7278a985.webp"
+            },
+            "description": "\u0428\u0435\u0441\u0442\u0438\u0433\u0440\u0430\u043d\u043d\u044b\u0439 \u0448\u0430\u0442\u0451\u0440 Ganghao \u043f\u043e\u0434\u043e\u0439\u0434\u0451\u0442 \u043a\u0430\u043a \u0434\u043b\u044f \u043e\u0442\u0434\u044b\u0445\u0430 \u043d\u0430 \u043f\u0440\u0438\u0440\u043e\u0434\u0435 \u0432 \u0442\u0435\u0441\u043d\u043e\u043c \u043a\u0440\u0443\u0433\u0443 \u0441\u0435\u043c\u044c\u0438 \u0438 \u0434\u0440\u0443\u0437\u0435\u0439, \u0442\u0430\u043a \u0438 \u0434\u043b\u044f \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u0442\u043e\u0440\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0439. \u041f\u0440\u043e\u0447\u043d\u044b\u0439 \u043c\u0435\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u0440\u043a\u0430\u0441 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u0430\u0434\u0451\u0436\u043d\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0448\u0430\u0442\u0451\u0440, \u0430 \u043c\u043e\u0441\u043a\u0438\u0442\u043d\u044b\u0435 \u0441\u0435\u0442\u043a\u0438 \u0437\u0430\u0449\u0438\u0442\u044f\u0442 \u043e\u0442\u0434\u044b\u0445\u0430\u044e\u0449\u0438\u0445 \u043e\u0442 \u043d\u0430\u0434\u043e\u0435\u0434\u043b\u0438\u0432\u044b\u0445 \u043d\u0430\u0441\u0435\u043a\u043e\u043c\u044b\u0445. \u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u0443\u043f\u043e\u043b \u0443\u043a\u0440\u043e\u0435\u0442 \u043e\u0442 \u0434\u043e\u0436\u0434\u044f \u0438\u043b\u0438 \u044f\u0440\u043a\u0438\u0445 \u0441\u043e\u043b\u043d\u0435\u0447\u043d\u044b\u0445 \u043b\u0443\u0447\u0435\u0439. \u0428\u0442\u043e\u0440\u0430\u043c \u0438\u0437 \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440\u0430 \u043d\u0435 \u0433\u0440\u043e\u0437\u044f\u0442 \u0438\u0441\u0442\u0438\u0440\u0430\u043d\u0438\u0435 \u0438 \u0432\u044b\u0433\u043e\u0440\u0430\u043d\u0438\u0435, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043a\u0440\u0430\u0441\u0438\u0432\u044b\u0439 \u043f\u0435\u0441\u043e\u0447\u043d\u044b\u0439 \u0446\u0432\u0435\u0442 \u0434\u043e\u043b\u0433\u043e \u0431\u0443\u0434\u0435\u0442 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0442\u044c \u0441\u0432\u043e\u044e \u043d\u0430\u0441\u044b\u0449\u0435\u043d\u043d\u043e\u0441\u0442\u044c. \u0420\u043e\u0441\u043a\u043e\u0448\u043d\u044b\u0439 \u0438 \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0431\u0435\u0441\u0435\u0434\u043a\u0438 \u043e\u0442 Ganghao \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u043e \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442 \u0441\u0430\u0434 \u0438\u043b\u0438 \u0437\u0430\u0433\u043e\u0440\u043e\u0434\u043d\u044b\u0439 \u0443\u0447\u0430\u0441\u0442\u043e\u043a. \u041c\u0435\u0431\u0435\u043b\u044c (\u0441\u0442\u043e\u043b \u0438 \u0441\u0442\u0443\u043b\u044c\u044f) \u0432 \u0441\u043e\u0441\u0442\u0430\u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430 \u043d\u0435 \u0432\u0445\u043e\u0434\u044f\u0442 \u0438 \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0430\u044e\u0442\u0441\u044f \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e. ",
+            "discountPrice": 59990,
+            "discount": 33,
+            "discountAmount": 30000,
+            "popularity": 599,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 5558,
+            "roundTags": [
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                },
+                {
+                    "id": "hit",
+                    "text": "\u0425\u0438\u0442",
+                    "textBackgroundClass": "nameplate--orange",
+                    "textBackgroundColor": "#ff6633",
+                    "type": "base",
+                    "sort": 20
+                },
+                {
+                    "id": "discount",
+                    "text": "-33%",
+                    "textBackgroundClass": "nameplate--pink",
+                    "textBackgroundColor": "#cc3366",
+                    "type": "base",
+                    "sort": 10
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "2450003503325",
+                "2450003503325",
+                "1001391736"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430": "\u0421\u0432\u0435\u0442\u043b\u043e-\u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "4.5 \u043c",
+                "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043e\u043a": "1",
+                "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043e\u043a \u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435": "1",
+                "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044f": "\u0448\u0430\u0442\u0451\u0440 - 1 \u0448\u0442; \u0441\u0442\u043e\u043b \u0438 \u0441\u0442\u0443\u043b\u044c\u044f \u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u043d\u0435 \u0432\u0445\u043e\u0434\u044f\u0442",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u0410\u043b\u044e\u043c\u0438\u043d\u0438\u0439, \u0441\u0442\u0430\u043b\u044c",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0443\u043f\u043e\u043b\u0430": "\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "28.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "227.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "65.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "70.0000",
+                "\u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438": "226\u044570\u044527 \u0441\u043c, 226\u044575\u044527 \u0441\u043c",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u041a\u0438\u0442\u0430\u0439",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "3.9 \u043c",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0428\u0430\u0442\u0435\u0440",
+                "\u0412\u044b\u0441\u043e\u0442\u0430": "2.9 \u043c",
+                "\u0412\u0435\u0441": "66.0000"
+            },
+            "brand": "Ganghao",
+            "actualPrice": 59990,
+            "bonusAmount": 599
+        },
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/e9b8173725ec913366c4d5d8dbb7689d.jpg",
+                    "webp": "/upload/webp_cache/b037cdbdbb77776527ca309f0917aa2e.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/d8009e16050caf47b9d595fbd6f8bfff.jpg",
+                    "webp": "/upload/webp_cache/13764c24b2d91b13094be4c7549e5991.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/af1337a1e74d6da8dd84ced64b74b08d.jpg",
+                    "webp": "/upload/webp_cache/d0fa38ba2925005b66ad2d58a26a7ccc.webp"
+                }
+            ],
+            "id": 649654,
+            "name": "\u0428\u0430\u0442\u0435\u0440 Zhengte 4\u04454\u043c",
+            "code": "1002387043",
+            "price": 47990,
+            "url": "https://tvoydom.ru/catalog/1002387043/",
+            "isHit": false,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 3,
+            "sectionId": 6998,
+            "brandId": 18380,
+            "manufacturerId": 0,
+            "freeDelivery": true,
+            "overallStock": 9,
+            "ecomFilialStock": 2,
+            "photo": {
+                "path": "/photos/1002387043/2450008536731_01.jpg",
+                "webp": "/upload/webp_cache/137d4ee04e33ad1216e98737ea4d667a.webp"
+            },
+            "description": "",
+            "discountPrice": null,
+            "discount": 0,
+            "discountAmount": 0,
+            "popularity": 217,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 4446,
+            "roundTags": [
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "1002387043",
+                "2450008536731"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430": "\u0411\u0435\u043b\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "400",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u0421\u0442\u0430\u043b\u044c",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0443\u043f\u043e\u043b\u0430": "\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440 \u0441 \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435\u043c \u043f\u0432\u0445",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b, \u0422\u043a\u0430\u043d\u044c",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "27.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "30.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "37.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "193.0000",
+                "\u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0442\u043a\u0430\u043d\u0438": " 260\u0433/m2",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u041a\u0438\u0442\u0430\u0439",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "400",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0428\u0430\u0442\u0435\u0440",
+                "\u0412\u044b\u0441\u043e\u0442\u0430": "361"
+            },
+            "brand": "Zhengte",
+            "actualPrice": 47990,
+            "bonusAmount": 479
+        },
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/b448f33a641c7d6feeecc33d8e652517.jpg",
+                    "webp": "/upload/webp_cache/5740b876276136fad154d104ccb5f25f.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/a29edf03ec0fb9cc8d2efa1ee5eca061.jpg",
+                    "webp": "/upload/webp_cache/1401ae2632fc83198bf1018a10939a2e.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/d1808ff4f40cde3ad9be486c7e2c52a4.jpg",
+                    "webp": "/upload/webp_cache/4c9464c15538069a1302194a727a535c.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/21e0fcf774d11610947b2ca1111f0e4b.jpg",
+                    "webp": "/upload/webp_cache/238cf2aa1dc24afdb27199c0a3e85084.webp"
+                }
+            ],
+            "id": 649655,
+            "name": "\u0428\u0430\u0442\u0435\u0440 \u0441\u0442\u0430\u043b\u044c\u043d\u043e\u0439 Zhengte \u0437\u0435\u043b\u0451\u043d\u044b\u0439 3.5\u04453.5 \u043c \u0441 \u043e\u043a\u043d\u0430\u043c\u0438",
+            "code": "1002387040",
+            "price": 68990,
+            "url": "https://tvoydom.ru/catalog/1002387040/",
+            "isHit": false,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 3,
+            "sectionId": 6998,
+            "brandId": 18380,
+            "manufacturerId": 0,
+            "freeDelivery": true,
+            "overallStock": 3,
+            "ecomFilialStock": 0,
+            "photo": {
+                "path": "/photos/1002387040/2450008536700_01.jpg",
+                "webp": "/upload/webp_cache/760cf27d4bbed1599e9060fa27d980da.webp"
+            },
+            "description": "",
+            "discountPrice": null,
+            "discount": 0,
+            "discountAmount": 0,
+            "popularity": 2260,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 6391,
+            "roundTags": [
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "1002387040",
+                "2450008536700"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "350",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u0421\u0442\u0430\u043b\u044c",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0443\u043f\u043e\u043b\u0430": "\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440 \u0441 \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435\u043c \u0438\u0437 \u043f\u043e\u043b\u0438\u0443\u0440\u0435\u0442\u0430\u043d\u0430",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b, \u0422\u043a\u0430\u043d\u044c",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "27.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "30.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "37.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "193.0000",
+                "\u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0442\u043a\u0430\u043d\u0438": "180 \u0438 250\u0433/m2 ",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u041a\u0438\u0442\u0430\u0439",
+                "\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u043c\u043e\u0441\u043a\u0438\u0442\u043d\u0430\u044f \u0441\u0435\u0442\u043a\u0430": "\u0434\u0430",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "350",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0428\u0430\u0442\u0435\u0440",
+                "\u0412\u044b\u0441\u043e\u0442\u0430": "225/304"
+            },
+            "brand": "Zhengte",
+            "actualPrice": 68990,
+            "bonusAmount": 689
+        },
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/f0a375e86e5025737f9e3d8b5f420a89.jpg",
+                    "webp": "/upload/webp_cache/487df327388216fc987f3fb2ff39e5df.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/30ea12d50a997a079e6f140942465bae.jpg",
+                    "webp": "/upload/webp_cache/2b1595238bc916eed52098bee9d2b866.webp"
+                }
+            ],
+            "id": 392240,
+            "name": "\u0428\u0430\u0442\u0435\u0440 Ganghao \u0441 \u043c\u043e\u0441\u043a\u0438\u0442\u043d\u043e\u0439 \u0441\u0435\u0442\u043a\u043e\u0439 300x365x295\u0441\u043c (GH13N01)",
+            "code": "1001391739",
+            "price": 42990,
+            "url": "https://tvoydom.ru/catalog/1001391739/",
+            "isHit": false,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 3,
+            "sectionId": 6998,
+            "brandId": 18406,
+            "manufacturerId": 651,
+            "freeDelivery": true,
+            "overallStock": 7,
+            "ecomFilialStock": 0,
+            "photo": {
+                "path": "/photos/1001391739/1001391739_01.jpg",
+                "webp": "/upload/webp_cache/6d136b7ac2a8599fbcb1e473dc19ec9c.webp"
+            },
+            "description": "\u0428\u0430\u0442\u0435\u0440 GangHao \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d \u0434\u043b\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0432 \u0441\u0430\u0434\u0443. \u041a\u043e\u0440\u043f\u0443\u0441 \u0438\u0437 \u043c\u0435\u0442\u0430\u043b\u043b\u0430 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u043f\u0440\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u0438 \u043d\u0430\u0434\u0435\u0436\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438, \u0430 \u0442\u043a\u0430\u043d\u0435\u0432\u044b\u0435 \u0437\u0430\u043d\u0430\u0432\u0435\u0441\u043a\u0438 \u0437\u0430\u0449\u0438\u0442\u044f\u0442 \u043e\u0442 \u043d\u0435\u0436\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441\u043e\u043b\u043d\u0435\u0447\u043d\u044b\u0445 \u043b\u0443\u0447\u0435\u0439. \u0428\u0430\u0442\u0435\u0440 \u0442\u0430\u043a\u0436\u0435 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u043e\u0441\u043d\u0430\u0449\u0435\u043d \u043c\u043e\u0441\u043a\u0438\u0442\u043d\u043e\u0439 \u0441\u0435\u0442\u043a\u043e\u0439, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043d\u0435 \u0434\u0430\u0441\u0442 \u043d\u0430\u0441\u0435\u043a\u043e\u043c\u044b\u0445 \u0438\u0441\u043f\u043e\u0440\u0442\u0438\u0442\u044c \u0432\u0430\u0448 \u043e\u0442\u0434\u044b\u0445 \u043d\u0430 \u0441\u0432\u0435\u0436\u0435\u043c \u0432\u043e\u0437\u0434\u0443\u0445\u0435.",
+            "discountPrice": 23990,
+            "discount": 44,
+            "discountAmount": 19000,
+            "popularity": 470,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 2223,
+            "roundTags": [
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                },
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": "discount",
+                    "text": "-44%",
+                    "textBackgroundClass": "nameplate--pink",
+                    "textBackgroundColor": "#cc3366",
+                    "type": "base",
+                    "sort": 10
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "2450003503356",
+                "2450003503356",
+                "1001391739"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0443\u043f\u043e\u043b\u0430": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "3.65 \u043c",
+                "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043e\u043a": "1",
+                "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043e\u043a \u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435": "1",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0443\u043f\u043e\u043b\u0430": "\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "215.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "40.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "37.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "18.0000",
+                "\u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438": "215\u044539\u044518 \u0441\u043c",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u041a\u0438\u0442\u0430\u0439",
+                "\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u043c\u043e\u0441\u043a\u0438\u0442\u043d\u0430\u044f \u0441\u0435\u0442\u043a\u0430": "\u0434\u0430",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "3 \u043c",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0428\u0430\u0442\u0435\u0440",
+                "\u0412\u044b\u0441\u043e\u0442\u0430": "2.95 \u043c"
+            },
+            "brand": "Ganghao",
+            "actualPrice": 23990,
+            "bonusAmount": 239
+        },
+        {
+            "catalogPhotos": [
+                {
+                    "path": "/upload/resize_cache_custom/da9bbaafbf19ad0c14538ad49fd10b48.jpg",
+                    "webp": "/upload/webp_cache/e929650d893b7ba2e2f159bb4db6a18a.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/600ae044ab41aeef743c102577bbedee.jpg",
+                    "webp": "/upload/webp_cache/2679fd1019b864ec8ec740ce64b5cc21.webp"
+                },
+                {
+                    "path": "/upload/resize_cache_custom/2e9291ba01868e340e02b093a2d7b17c.jpg",
+                    "webp": "/upload/webp_cache/aaf85d1ed109f34c6c272f01673141f3.webp"
+                }
+            ],
+            "id": 652021,
+            "name": "\u0411\u0435\u0441\u0435\u0434\u043a\u0430 NS RATTAN/MAVI",
+            "code": "1002478834",
+            "price": 199990,
+            "url": "https://tvoydom.ru/catalog/1002478834/",
+            "isHit": false,
+            "isNew": false,
+            "isWeekOffer": false,
+            "AlwaysProfitable": false,
+            "basketQuantity": 0,
+            "isInCompareList": false,
+            "isInFavoriteList": false,
+            "availableShops": 2,
+            "sectionId": 6998,
+            "brandId": 90100,
+            "manufacturerId": 0,
+            "freeDelivery": true,
+            "overallStock": 2,
+            "ecomFilialStock": 0,
+            "photo": {
+                "path": "/photos/1002478834/4760162081038_01.jpg",
+                "webp": "/upload/webp_cache/17b12f7963d252f4f91775554e570653.webp"
+            },
+            "description": "",
+            "discountPrice": null,
+            "discount": 0,
+            "discountAmount": 0,
+            "popularity": 444,
+            "isAlcohol": false,
+            "isOnlyHypermarket": false,
+            "isOnlyPickup": false,
+            "isCreditable": false,
+            "isWeight": false,
+            "creditablePriceFrom": 18527,
+            "roundTags": [
+                {
+                    "id": 5,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/de4/ya.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/2fc/1.png",
+                    "showOnlyInCard": false,
+                    "note": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441-\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+                },
+                {
+                    "id": 12,
+                    "text": "",
+                    "textBackgroundColor": "",
+                    "textBackgroundClass": "",
+                    "pictogram": "https://cdn.tvoydom.ru/upload/uf/bb0/1212.png",
+                    "type": "pictogram",
+                    "sort": 100029,
+                    "roundPicture": "https://cdn.tvoydom.ru/upload/uf/b09/2222.png",
+                    "showOnlyInCard": false,
+                    "note": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432"
+                }
+            ],
+            "statusYaTaxi": "available",
+            "isFresh": false,
+            "isYaTaxiAvailable": true,
+            "isFairSign": false,
+            "isInstallment": false,
+            "richContent": false,
+            "basket_step": 1,
+            "barcodes": [
+                "1002478834",
+                "2450008958885",
+                "4760162081038"
+            ],
+            "siblings": false,
+            "props": {
+                "\u0426\u0432\u0435\u0442 \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+                "\u0414\u043b\u0438\u043d\u0430": "275",
+                "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u0430\u0440\u043a\u0430\u0441\u0430": "\u0410\u043b\u044e\u043c\u0438\u043d\u0438\u0439, \u043f\u043e\u043b\u0438\u044d\u0442\u0438\u043b\u0435\u043d",
+                "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b": "\u041c\u0435\u0442\u0430\u043b\u043b, \u0422\u043a\u0430\u043d\u044c",
+                "\u0412\u044b\u0441\u043e\u0442\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "300.0000",
+                "\u0414\u043b\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "275.0000",
+                "\u0412\u0435\u0441 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "28.0000",
+                "\u0428\u0438\u0440\u0438\u043d\u0430 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0438 1": "275.0000",
+                "\u0421\u0442\u0440\u0430\u043d\u0430-\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d",
+                "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438 \u043f\u043e \u0443\u0445\u043e\u0434\u0443": "\u041f\u0440\u043e\u0442\u0438\u0440\u0430\u0442\u044c \u0432\u043b\u0430\u0436\u043d\u043e\u0439 \u0442\u0440\u044f\u043f\u043a\u043e\u0439 \u0438\u043b\u0438 \u0449\u0435\u0442\u043a\u043e\u0439",
+                "\u0428\u0438\u0440\u0438\u043d\u0430": "275",
+                "\u0422\u0438\u043f \u0442\u043e\u0432\u0430\u0440\u0430": "\u0411\u0435\u0441\u0435\u0434\u043a\u0430",
+                "\u0412\u044b\u0441\u043e\u0442\u0430": "300"
+            },
+            "brand": "NS RATTAN/MAVI",
+            "actualPrice": 199990,
+            "bonusAmount": 1999
+        }
+    ]
+}
