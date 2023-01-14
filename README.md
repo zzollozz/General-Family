@@ -1,6 +1,6 @@
 # General-Family
 Это проект с парсерами на разные интернет магазины по веткам отдельно.
-main-
+* main-
   * | -  project_auchan
   * | -  project_leroymerlen
   * | -  scrapy_prodject_petrovich
